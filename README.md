@@ -1,16 +1,24 @@
- •
- Enforced robust security with role-based access control, JWT authentication, and method-level 
-security while centralizing error handling using Controller Advice.
- •
- Designed a structured content management system by enabling instructors to create, update, 
-and manage courses, videos, assignments, and quizzes, with AWS S3 integration for video 
-storage.(AWS S3 still to be included)
- •
- Implemented a modular architecture using DAO, DTO, and Mapper to separate concerns, 
-optimize data transformation, and streamline database interactions.
- •
- Optimized database and API performance by leveraging MySQL with soft deletes, implementing 
-pagination, sorting, and query parameters, and designing HATEOAS-driven RESTful APIs.
- •
- Engineered real-time features and notifications by building WebSocket-based chat and delivering 
-real-time and email alerts for assignments, grades, and course availability.
+🔒 Security & Error Handling
+Implemented robust role-based access control with JWT authentication and method-level security.
+
+Centralized exception management using Spring's Controller Advice for cleaner and consistent error handling.
+
+🎓 Course & Content Management
+Designed a flexible system for instructors to create, update, and manage courses, including videos, assignments, and quizzes.
+
+Planned AWS S3 integration for scalable video storage (currently in progress).
+
+🧩 Clean Architecture & Code Design
+Adopted a modular architecture using DAO, DTO, and Mapper patterns to separate concerns and streamline data transformations.
+
+Ensured maintainability and scalability through clean code practices.
+
+⚙️ Database & API Optimization
+Utilized MySQL with soft deletes, pagination, sorting, and query parameters to enhance performance.
+
+Developed HATEOAS-compliant RESTful APIs for better client navigation and interaction.
+
+🔔 Real-Time Features & Notifications
+Built WebSocket-based real-time chat for interactive communication.
+
+Implemented real-time and email notifications for key events like assignments, grades, and course updates.
